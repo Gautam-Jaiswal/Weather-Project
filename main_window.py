@@ -3,10 +3,10 @@ from tkinter import simpledialog
 import requests
 import datetime
 
-api_key = 'c7e277995036b157450ffb7ef63adbed'
+api_key = 'Your API Key'
 api_call = 'https://api.openweathermap.org/data/2.5/onecall'
-my_lat = 28.474388
-my_long = 77.503990
+my_lat = Your latitude
+my_long = Your longitude
 exclude = ['current', 'minutely', 'hourly']
 parameters = {
     'lat': my_lat,
